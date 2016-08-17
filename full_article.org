@@ -1,0 +1,35 @@
+#+STARTUP: inlineimages
+#+LaTeX_CLASS_OPTIONS: [koma, a4paper, utopia, 12pt]
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \setdefaultlanguage{english}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \doublespacing
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+AUTHOR: Brandon Payne . 850226663\\
+#+DATE: 3 - August - 2016
+#+TITLE: My Pandoc Test\\
+#+LATEX_HEADER: \usepackage[notes, isbn=false, backend=biber]{biblatex-chicago}
+#+LATEX_HEADER: \bibliography{../bibliography/biblio.bib}
+
+
+This is the abstract. 
+This proposal has 5 parts.
+They are all important.
+Intro
+Something
+Something
+Something
+Conclusion
+** Intro
+   :PROPERTIES:
+   :CUSTOM_ID: section
+   :END:
+
+** Something 1
+** Something 2
+** Something 3
+** Conclusion
+#+LATEX:/clearpage
+
+#+LATEX:/nocite{*} 
+#+LATEX:/bibliography
