@@ -1,2 +1,1 @@
-introduction.html
-results.html
+full_article.tex
